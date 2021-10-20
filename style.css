@@ -1,0 +1,40 @@
+body{
+    background-image: url("background.jpg");
+    background-repeat: repeat;
+
+}
+
+h3
+{
+font-size:25px !important;
+}
+
+#btn-btn-info{
+    height:60px;
+    width:500px;
+    background-color: cyan;
+}
+
+#btn-btn-success{
+    height:60px;
+    width:800px;
+    background-color: green;
+}
+
+#btn-btn-info:hover
+{
+    background-color:orange;
+}
+
+canvas
+{
+animation-name:example;
+animation-duration:5s;
+animation-iteration-count: infinite;
+}
+
+@keyframes example
+{
+from{box-shadow:1px 1px 38px rgb(0, 255, 0);}
+to{box-shadow:1px 1px 38px rgb(25, 0, 255);}
+}
